@@ -33,10 +33,6 @@ a {
   text-decoration: none;
 }
 
-button {
-  font-family: 'Roboto', 'Segoe UI', sans-serif;
-}
-
 /* Header */
 .logo {
   color: var(--accent-color);
