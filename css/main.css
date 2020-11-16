@@ -1,0 +1,90 @@
+/* Первичный цвет текста --primary-text-color (#757575) */
+/* Цвет заголовков и ссылок --secondary-text-color (#212121) */
+/* Цвет фона, h1, лого и адрес в футере --primary-bg-color (#FFFFFF) */
+/* Вторичный цвет фона --secondary-bg-color (#F5F4FA) */
+/* Акцент --accent-color (#2196F3) */
+/* Контакты в футере --footer-text-color (255, 255, 255, 0.6) */
+/* Цвет футера --footer-bg-color (#2F303A) */
+
+/* index.html */
+
+.hero {
+  background: var(--footer-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.hero .btn {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
+.features .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.team .title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team .positions {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* portfolio.html */
+
+.filters button {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.filters button:hover,
+.filters button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+.project .title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .type {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
