@@ -54,6 +54,11 @@ button {
 
 /* ================ Header ================ */
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, 'Segoe UI', sans-serif;
@@ -66,12 +71,27 @@ button {
   color: #000;
 }
 
+.nav-section {
+  display: flex;
+}
+
+.site-nav {
+  display: flex;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .site-nav .link {
+  display: block;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link.current {
@@ -81,6 +101,20 @@ button {
 .link:hover,
 .link:focus {
   color: var(--accent-color);
+}
+
+.header-contacts.list {
+  display: flex;
+}
+
+.header-contacts .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.header-contacts .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-contacts a {
