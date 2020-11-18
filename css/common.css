@@ -23,17 +23,37 @@ body {
   font-size: 14px;
   line-height: 1.72;
   letter-spacing: 0.03em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-/* Header */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  outline: 3px dotted #2196f3;
+}
+
+button {
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+}
+
+/* ================ Header ================ */
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, 'Segoe UI', sans-serif;
@@ -71,10 +91,11 @@ a {
   letter-spacing: 0.02em;
 }
 
-/* Footer */
+/* ================= Footer ================= */
 
 footer {
   background: var(--footer-bg-color);
+  padding: 60px 0;
 }
 
 footer .logo {
@@ -90,6 +111,7 @@ address .location {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin: 20px 0 0;
 }
 
 footer .link {
@@ -97,4 +119,6 @@ footer .link {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  display: inline-block;
+  margin-top: 9px;
 }
